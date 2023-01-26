@@ -17,6 +17,6 @@ const taskSchema = new Schema({
     ref: 'User',
     required: true,
   },
-}, { timeseries: true });
+}, { timestamps: true });
 
 export default mongoose.model('Task', taskSchema);
