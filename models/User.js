@@ -16,6 +16,6 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
-}, { timeseries: true });
+}, { timestamps: true });
 
 export default mongoose.model('User', userSchema);
